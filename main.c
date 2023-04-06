@@ -94,7 +94,7 @@ int main() {
     int n = 0; // initialize number of students to zero
     int pin;
     pin= 4321;//initializing the default security pin as 4321.
-    printf("enter records security pin( DEFAULT SECURITY PIN: 4321): ");//let the user put the security pin before accessing the records.
+    printf("enter records security pin( DEFAULT SECURITY PIN is 4321");//let the user put the security pin before accessing the records.
 
     scanf("%d",&pin);
     while(!(pin==4321))
